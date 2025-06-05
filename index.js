@@ -22,10 +22,18 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 */
+/*
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
+root.render(<App />);
+*/
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
